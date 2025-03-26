@@ -1,82 +1,49 @@
-# 🚀 Trade Arena - Fluxo de Branches (GitFlow Simplificado)
+# 🚀 Trade Arena - Plataforma Educacional de Trading
 
-## 📌 Branches principais
-- `main`: Branch de **produção**. Código testado, validado e pronto para deploy.
-- `develop`: Branch de **desenvolvimento**. Tudo que estiver em desenvolvimento e precisa de testes entra aqui.
+## Sobre a Trade Arena
 
-## 📌 Branches de funcionalidade
-Toda nova feature, correção ou melhoria deve ser desenvolvida em uma branch separada:
+A **Trade Arena** é mais do que uma plataforma de trading. 
+Somos uma solução **educacional e gamificada**, que oferece um ambiente realista para que traders de todos os níveis possam **praticar, evoluir e se destacar no mercado financeiro**, principalmente no **mercado futuro**.
 
-### 🟢 Exemplo de nomenclatura:
-| Tipo      | Padrão                         | Exemplo                           |
-|----------|-----------------------------------|-----------------------------------|
-| Feature  | feature/nome-da-feature           | feature/cadastro-usuario          |
-| Fix      | fix/descricao-bug                 | fix/corrige-validacao-email       |
----
+Nosso foco é **reduzir as principais dores do trader**:
+- Falta de um ambiente seguro e realista para testar estratégias;
+- Dificuldade em treinar o **psicológico** frente à pressão do mercado;
+- Necessidade de capital inicial significativo;
+- Falta de engajamento durante a fase de aprendizado.
 
-## 📌 Fluxo de desenvolvimento
-```mermaid
-graph TD;
-  A[feature/xpto] --> B[develop];
-  B --> C[main];
-```
+## Nossa Missão
 
-1. Criar a branch a partir da `develop`:
-```bash
-git checkout develop
-git checkout -b feature/nome-da-feature
-```
+Criar o **melhor ecossistema de aprendizagem e desenvolvimento para traders**, democratizando o acesso ao mercado futuro de forma simples, segura e divertida.
 
-2. Após finalizar a task, subir para o repositório e abrir o Pull Request **para a develop**
-```bash
-git push origin feature/nome-da-feature
-```
+## Funcionalidades Principais
 
-3. Realizar os testes necessários.
+### ✅ Conta Safe
+Operar com o capital que quiser, simulando o ambiente real. Lucre na simulação e saque os resultados.
 
-4. Quando validado, realizar o merge da `develop` na `main` para publicação em produção.
+### ✅ Torneios de Trading
+Compita em tempo real com outros traders. Dispute prêmios e coloque seu nome nos rankings. Ganhe até **40% de recompensa** ou premiações via **PIX**.
 
----
+### ✅ Perfis e Estatísticas
+Acompanhe sua evolução com **estatísticas completas**, rankings e comparações com outros traders.
 
-## 📌 Futuro - Implementação da `release`
-- A branch `release` será criada para homologar funcionalidades antes da `main`.
-```mermaid
-graph TD;
-  A[feature/xpto] --> B[develop];
-  B --> C[release];
-  C --> D[main];
-```
+### ✅ Resgates via PIX
+Premiações em dinheiro real, resgatadas na hora.
+
+### ✅ Plataforma de Negociação
+Operações usando **PROFITCHART**, a melhor plataforma de negociação do mercado.
+
+## Diferenciais
+
+- **Sem burocracia**: não precisa abrir conta em corretora
+- **Rápido e direto no navegador ou mobile**
+- **Torneios customizados**: desde minutos até semanas
+- **Foco em formação de traders de alta performance**
+
+## Quer saber mais?
+Acesse nossa plataforma e venha fazer parte da revolução do trading:
+
+[https://www.tradearena.com.br](https://www.tradearena.com.br)
 
 ---
 
-## 📌 Padrão de Commits
-Utilizar convenções de mensagens para commits:
-```
-feat: descrição da nova funcionalidade
-fix: descrição da correção de bug
-refactor: descrição da refatoração
-```
-
----
-
-## 📌 Regras Gerais
-- Nunca realizar `push` diretamente na `main`
-- Sempre trabalhar com `Pull Request`
-- Validar o código antes de fazer merge na `main`
-- Manter o padrão de nomenclatura e commits
-
----
-
-## 👾 Exemplo de comandos para iniciar uma feature:
-```bash
-git checkout develop
-git checkout -b feature/cadastro-usuario
-git add .
-git commit -m "feat: cria endpoint de cadastro de usuário"
-git push origin feature/cadastro-usuario
-```
-
----
-
-# 🚀 Bora padronizar e escalar! 
-Dúvidas? Chama o time técnico!
+❤️ **Trade Arena - Gamificando o mercado, formando traders.**
