@@ -12,10 +12,6 @@ Toda nova feature, correção ou melhoria deve ser desenvolvida em uma branch se
 |----------|-----------------------------------|-----------------------------------|
 | Feature  | feature/nome-da-feature           | feature/cadastro-usuario          |
 | Fix      | fix/descricao-bug                 | fix/corrige-validacao-email       |
-| Refactor | refactor/descricao-refatoracao    | refactor/melhora-query-banco      |
-| Test     | test/descricao-teste              | test/cenario-validacao-cupom      |
-| Hotfix   | hotfix/descricao-bug              | hotfix/corrige-nullpointer        |
-
 ---
 
 ## 📌 Fluxo de desenvolvimento
